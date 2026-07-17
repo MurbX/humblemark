@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-fraunces), Georgia, serif;
+}
+
+/* HumbleMark brand palette — drawn from the logo */
+@theme {
+  --color-cream: #fdf8ee; /* page background */
+  --color-sand: #f6ecd8; /* soft tinted panels */
+  --color-ink: #16281c; /* body text, near-black green */
+  --color-pine: #113d22; /* darkest green — headings, footer */
+  --color-forest: #1e5c33; /* primary green — buttons, links */
+  --color-leaf: #7cb84b; /* bright leaf green */
+  --color-citrus: #f6921e; /* logo orange */
+  --color-amber: #fbb040; /* golden juice */
+}
+
+::selection {
+  background-color: #fbb040;
+  color: #113d22;
+}
+
+body {
+  background-color: #fdf8ee;
+}

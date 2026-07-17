@@ -1,0 +1,11 @@
+# dependencies
+node_modules/
+
+# environment
+.env
+.env.*
+!.env.example
+
+# misc
+*.log
+.DS_Store

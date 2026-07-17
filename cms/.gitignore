@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# environment
+.env
+
+# strapi build & runtime artifacts
+.tmp/
+.cache/
+.strapi/
+build/
+dist/
+.strapi-updater.json
+
+# logs & misc
+npm-debug.log*
+*.log
+.DS_Store
